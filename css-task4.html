@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-task4</title>
+    <style>
+        p{
+            
+            text-align: center;
+        
+        }
+        ul{
+           list-style-type: none; 
+           padding:0;
+           margin:0;
+           position: absolute;
+           float:left
+        }
+        .box{
+            width:75px;
+            height:75px;
+            margin-top:20px;
+            margin-left:-15px;
+            border-radius:20%;
+            display: inline-block;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color:rgb(105, 217, 232);
+        }
+        .red{
+            background-color:red;
+        }
+        .grey{
+            background-color: darkgray;
+        }
+        .box:hover{
+            text-decoration: none;
+            width:100px;
+
+        }
+        .a{
+            font-weight: 900;
+            margin-right:171px;
+            font-size:1.25em;
+
+        }
+        .whole{
+            justify-content: center;
+            height:450px;
+            border:1px solid black;
+            border-left:none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="whole">
+    <ul>
+        <div class="green box"><li><a href="#green"></a></li></div>
+        <br>
+        <div class="blue box"><li><a href="#blue"></a></li></div>
+        <br>
+        <div class="red box"><li><a href="#green"></a></li></div>
+        <br>
+        <div class="grey box"><li><a href="#blue"></a></li></div>
+
+        
+    </ul>
+    <p><span class="a">Hoverable sidenav Button</span><br><br>
+    Hover over the button in the left side navigation to open them <p>
+    </div>
+</body>
+</html>

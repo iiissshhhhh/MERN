@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-task7</title>
+    <style>
+        body{
+            font-family: system-ui,sans-serif;
+            font-size: large;
+            font-weight:500;
+        }
+        p{
+            display:inline-block;
+        }
+        .box1{
+            height:700px;
+            width:750px;
+            background-color:#7a1f3d;
+            border:20px solid rgb(184, 118, 140);
+            border-width:20px 50px;
+            margin-left:auto;
+            margin-right:auto;
+
+        }
+        .box2{
+            color:white;
+            padding-left:200px;
+            padding-top: 100px;
+        }
+        label{
+            display: inline-block;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="your name"/>
+        <br><br>
+        <label>Email:</label>
+        <input type="text" placeholder="your email"/>
+        <br><br>
+        <label>Password:</label>
+        <input type="password"/>
+        <br><br>
+        <label>Phone number:</label>
+        <input type="tel"/>
+        <br><br>
+        <label>Gender:</label>
+         <p>Male:</p><input type="radio" id="" name="gen"/>
+         <p>Female:</p><input type="radio" id="" name="gen"/>
+         <p>Other:</p><input type="radio" id="" name="gen"/>
+         <br><br>
+        <label>Language:</label>
+        <select>
+            <option>--Select language--</option>
+            <option>Tamil</option>
+            <option>Hindi</option>
+            <option>English</option>
+            <option>Malayalam</option>
+        </select>
+        <br><br>
+        <label>Zipcode:</label>
+        <input type="number"/>
+        <br><br>
+        <label>About:</label>
+        <textarea name="" id="" cols="30" rows="5" placeholder="write about yourself..."></textarea>
+        <br><br>
+        <input style="width: 400px; border-radius:5px; border:none;" type="submit" id="" name="" value="register">
+    </form>
+    </div>
+
+</div>
+    
+</body>
+</html>
